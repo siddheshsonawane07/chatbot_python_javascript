@@ -11,11 +11,83 @@
           "Good day"
         ],
         "responses": [
-          "Hey :-)",
-          "Hello, thanks for visiting",
-          "Hi there, what can I do for you?",
-          "Hi there, how can I help?"
+          "Hey :-), Where do you want to visit ?",
+          "Hello, Where do you want to visit ?",
+          "Hi there, Where do you want to visit ?"
         ]
+      },
+      {
+        "tag": "destination",
+        "patterns": [
+          "Las Vegas",
+          "New York",
+          "New Delhi",
+          "Paris",
+          "Tokyo",
+          "Maldives",
+          "Beijing",
+          "Rome"
+        ],
+        "responses": [
+          "Alright, When do you want to fly ?"
+        ]
+      },
+      {
+        "tag": "date",
+        "patterns": [
+          "July 4",
+          "August 10",
+          "November 8",
+          "December 5",
+          "April 28",
+          "May 7"
+        ],
+        "responses": [
+          "Yes,there are two flights available , Lufthansa Economy Class for 150 USD and Emirated Business Class for 500 USD",
+          "Yes,there is one flight available , Ethiad Economy Class for 240 USD"
+        ]
+      },
+      {
+        "tag": "flight type",
+        "patterns": [
+          "I am interested in Ethiad",
+          "I am interested in Lufthansa",
+          "I am interested in Emirates"
+        ],
+        "responses": [
+          "Cool , Let's confirm it , How would you like to pay?",
+          "Aight, Just one step near, How would you like to pay?"
+        ]
+      },
+      {
+        "tag": "payments",
+        "patterns": [
+          "VISA",
+          "Mastercard",
+          "Paypal"
+      
+        ],
+        "responses": [
+          "Perfect , Your booking has been confirmed",
+          "All set, You are on board"
+        ]
+      },
+
+      {
+        "tag": "accomadation",
+        "patterns": [
+          "Are there any hotels available near my destination?"
+
+
+        ],
+        "responses": [
+          "Yes there are three hotels ,1. Grand Swiss Hotel, 2. JW Mariott Hotel , 3.ITC Hotel "
+        ]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+        "responses": ["Happy to help!", "Any time!", "My pleasure"]
       },
       {
         "tag": "goodbye",
@@ -25,60 +97,7 @@
           "Have a nice day",
           "Bye! Come back again soon."
         ]
-      },
-      {
-        "tag": "thanks",
-        "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
-        "responses": ["Happy to help!", "Any time!", "My pleasure"]
-      },
-      {
-        "tag": "items",
-        "patterns": [
-          "Which items do you have?",
-          "What kinds of items are there?",
-          "What do you sell?"
-        ],
-        "responses": [
-          "We sell coffee and tea",
-          "We have coffee and tea"
-        ]
-      },
-      {
-        "tag": "payments",
-        "patterns": [
-          "Do you take credit cards?",
-          "Do you accept Mastercard?",
-          "Can I pay with Paypal?",
-          "Are you cash only?"
-        ],
-        "responses": [
-          "We accept VISA, Mastercard and Paypal",
-          "We accept most major credit cards, and Paypal"
-        ]
-      },
-      {
-        "tag": "delivery",
-        "patterns": [
-          "How long does delivery take?",
-          "How long does shipping take?",
-          "When do I get my delivery?"
-        ],
-        "responses": [
-          "Delivery takes 2-4 days",
-          "Shipping takes 2-4 days"
-        ]
-      },
-      {
-        "tag": "funny",
-        "patterns": [
-          "Tell me a joke!",
-          "Tell me something funny!",
-          "Do you know a joke?"
-        ],
-        "responses": [
-          "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-          "What did the buffalo say when his son left for college? Bison."
-        ]
       }
+  
     ]
   }
