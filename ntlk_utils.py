@@ -14,7 +14,3 @@ def stem(word):
 def bag_of_words(tokenized_sentence,all_words):
     pass
 
-a= "How do you live ?"
-print(a)
-a = tokenize(a)
-print(a)
