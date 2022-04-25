@@ -7,7 +7,7 @@ stemmer = PorterStemmer()
 def tokenize(sentence):
     return nltk.word_tokenize(sentence)
 
-
+# stemming words ie cuts the words into smaller words
 def stem(word):
     return stemmer.stem(word.lower())
 
