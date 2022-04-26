@@ -1,4 +1,4 @@
-class Chatbot{
+class Chatbox {
     constructor() {
         this.args = {
             openButton: document.querySelector('.chatbox__button'),
@@ -34,7 +34,6 @@ class Chatbot{
         } else {
             chatbox.classList.remove('chatbox--active')
         }
- 
     }
 
     onSendButton(chatbox) {
@@ -43,9 +42,8 @@ class Chatbot{
         if (text1 === "") {
             return;
         }
-    
 
-    let msg1 = { name: "User", message: text1 }
+        let msg1 = { name: "User", message: text1 }
         this.messages.push(msg1);
 
         fetch('http://127.0.0.1:5000/predict', {
