@@ -77,8 +77,6 @@
       "tag": "accomadation",
       "patterns": [
         "Are there any hotels available near my destination?"
-
-
       ],
       "responses": [
         "Yes there are three hotels ,1. Grand Swiss Hotel, 2. JW Mariott Hotel , 3.ITC Hotel "
